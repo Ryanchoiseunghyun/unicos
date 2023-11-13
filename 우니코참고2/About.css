@@ -1,0 +1,748 @@
+.About_start
+{
+    font-size: 30px;
+    color: blue;
+    box-shadow: 0 0 3px red;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.About_first
+{
+    background-color: green;
+    font-size: 10px;
+    margin-top: 100px;
+}
+
+.About_second
+{
+    background-color: pink;
+    height: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.About_third
+{
+    background-color: grey;
+    font-size: 10px;
+}
+
+.About_third i
+{
+    color: white;
+    font-size: 25px;
+}
+
+.inputDownNarrow
+{
+    border: 1px solid grey;
+}
+
+.inputDownNarrow.option
+{
+    display: block;
+}
+
+body
+{
+    margin: 0%;    
+    background-image: url("/배경화면대처/배경화면대처.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+ul li
+{
+    display: inline-block;
+    position: relative;
+    transform: 2s;
+}
+
+ul li a
+{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    width: 125px;
+    font-family: amiri;
+}
+ul li ul.dropdown li
+{
+    display: block;
+    border-radius: 10px;
+    text-align: center;
+}
+ul li ul.dropdown
+{
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    border-radius: 1em;
+}
+
+ul li:hover ul.dropdown
+{
+    display: block;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.Nav_start
+{
+    list-style: none;
+}
+
+.wordchar
+{
+    font-family: cinzel;
+    font-size: 30px;
+    font-weight: middle;
+    padding-left: 30px;
+    margin-top: 10px;
+    color: black;
+}
+
+.Nav_start li
+{
+    padding: 8px 10px;
+    font-size: 100px;
+}
+
+.Nav_first
+{
+    list-style: none;
+}
+
+.Nav_first li
+{
+    padding: 8px 10px;   
+}
+
+.Nav_first li i a
+{
+    margin-left: -1000px;
+}
+
+.Nav_first li:hover
+{
+    border-radius: 10px;
+}
+
+.Nav_second
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Nav_second li
+{
+    padding: 0px 25px;
+    margin-left: 100px;
+}
+
+.Nav2
+{
+    margin-right: 600px;
+    color: blue;
+}
+
+.Nav2 :hover
+{
+    font-weight: bold;
+}
+
+/*
+.Nav_second li:hover
+{
+    border-radius: 10px;
+}
+
+.main li a :nth-child(2)
+{
+    background-color: green;
+}
+
+.main ul li :nth-child(2)
+{
+    background-color: yellow;
+}
+
+.main .Nav_start li :nth-child(1)
+{
+    background-color: pink;
+}
+
+li.Nav_first ul li :nth-child(1)
+{
+    background-color: brown;
+}
+*/
+
+a
+{
+    text-decoration: none;
+    color: brown;
+    border: 10px;
+}
+
+
+.Nav_third
+{    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Nav_third li i
+{
+    color: white;
+    margin-top: 10px;
+    flex-grow: 3;
+}
+.Nav div
+{
+    padding: 9px 10px;
+}
+
+.Nav:hover
+{
+    background-color: black;
+}
+
+.Nav a
+{
+    text-decoration: none;
+    color: white;
+    margin: 1em;
+}
+
+.navbar
+{
+    display: flex;
+    list-style: none;
+}
+
+.input-area
+{
+    width: 100px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    margin-top: 25px;    
+}
+
+.main
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    border: 1px solid black;
+    margin-right: 0px;
+}
+
+.main_second
+{
+    border: 1px solid green;
+    width: 300px;
+    margin-left: 900px;
+    background-color:transparent;
+}
+
+.imoticon
+{
+    border: 1px solid purple;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: amiri;
+    color: #fff;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.imoticon a i
+{
+    color: #fff;
+    border: 1px solid black;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.random
+{
+    display: flex;
+}
+
+.Shopdetails
+{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 30px;
+}
+
+.stickystyle
+{
+    position: sticky;
+    top: 0px;
+}
+
+
+.mainCategories
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.mainCategories a
+{
+    color: #fff;
+    font-family: amiri;
+    font-size: 15px;
+}
+
+.mainpictures1
+{
+    position: absolute;
+    margin: 100px 1500px;
+}
+
+.mainpictures2
+{
+    position: absolute;
+    margin: 100px 800px;
+}
+
+.mainpictures3
+{
+    position: absolute;
+    margin: 300px 700px;
+}
+
+.mainlogobox
+{
+    position: absolute;
+    margin: 600px 350px;
+}
+
+.footer
+{
+    background-color: antiquewhite;
+}
+
+.footerbutton
+{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border-width: 1px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.buttons
+{
+    border: 1px solid greenyellow;
+    position: absolute; bottom: 100px; left: 1600px;
+}
+
+
+.content 
+{
+    margin: 50px;
+    padding: 15px;
+    width: 700px;
+    height: 200px;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactForm a
+{
+    font-size: 15px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    word-spacing: 3em;
+}
+
+.unicoDetail h1
+{
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width:768px)
+{
+    .main
+    {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 20px;
+    }
+
+    .navbar_menu
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .navbar_menu li
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width:768px)
+{
+    .mainlogobox
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .mainpictures1
+    {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px)
+{
+    .mainpictures2
+    {
+        flex-direction: column;
+    }
+}
+
+  /* pagination position styling */
+  .pagination_section {
+    position: relative;
+    margin-left: 85%;
+  }
+   
+  /* pagination styling */
+  .pagination_section a {
+    color: black;
+    text-decoration: none;
+  }
+   
+  /* pagination hover effect on non-active */
+  .pagination_section a:hover:not(.active) {
+    background-color: #031F3B;
+    color: white;
+  }
+   
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+   
+  .dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropbtn i
+{
+    font-size: 30px;
+}
+
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+
+  ul .dropdown .dropbtn i:hover
+  {
+    position: absolute;
+  }
+   
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    border: 1px solid grey;
+    size: 10px;
+  }
+   
+  .dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f9f9f9;
+    width: auto;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    letter-spacing: 0px;
+    font-size: 15px;
+    color: white;
+    margin-left: auto;
+  }
+   
+  .dropdown-content .header {
+    background: red;
+    padding: 16px;
+    color: white;
+  }
+   
+  .dropdown:hover .dropdown-content {
+    display: block;
+    color: white;
+  }
+
+  .dropdown-content a
+  {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: black;
+    text-align: center;
+  }
+  a .dropdown-content:hover
+  {
+    position: absolute;
+  }
+   
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: #ccc;
+    height: 250px;
+  }
+   
+  .column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+   
+  .column a:hover {
+    background-color: #ddd;
+  }
+   
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Popup Styles */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1px 20px;
+}
+
+.popup-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#horizontal-underline
+{
+    position: absolute;
+    width:0;
+    background-color: pink;
+    top: 10;
+    left: 10;
+    transition:0.5s;
+}
+.flexbox
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#topMenu {
+    height: 30px; 
+}
+#topMenu ul {           /* 메인 메뉴 안의 ul을 설정함: 상위메뉴의 ul+하위 메뉴의 ul */
+list-style-type: none;  
+margin: 0px;            
+padding: 0px;
+}
+#topMenu ul li {            /* 메인 메뉴 안에 ul 태그 안에 있는 li 태그의 스타일 적용(상위/하위메뉴 모두) */
+color: white;               
+background-color: transparent;  
+float: left;                
+line-height: 30px;          
+vertical-align: middle;     
+text-align: center;         
+position: relative;         
+}
+.menuLink, .submenuLink {           /* 상위 메뉴와 하위 메뉴의 a 태그에 공통으로 설정할 스타일 */
+text-decoration:none;               
+display: block;                     
+width: 150px;                       
+font-size: 25px;                    
+font-family: "Trebuchet MS", Dotum; 
+margin-top: 50px;
+}
+.menuLink {     /* 상위 메뉴의 글씨색을 흰색으로 설정 */
+color: black;
+font-size: 30px;
+font-family: uicksand;
+}
+.topMenuLi:hover .menuLink {    /* 상위 메뉴의 li에 마우스오버 되었을 때 스타일 설정 */
+color: #fff;                 
+background-color: transparent;  
+}
+.longLink {     /* 좀 더 긴 메뉴 스타일 설정 */
+width: 190px;   
+}
+.submenuLink {          /* 하위 메뉴의 a 태그 스타일 설정 */
+    color: #2d2d2d;             
+    background-color: transparent;    
+    margin-right: -1px;         /* [변경] 위 칸의 하단 테두리와 아래칸의 상단 테두리가 겹쳐지도록 설덩 */
+}
+.submenu {              /* 하위 메뉴 스타일 설정 */
+    position: absolute;     
+    height: 0px;            
+    overflow: hidden;       
+    transition: height .2s; 
+    -webkit-transition: height .2s; 
+    -moz-transition: height .2s; 
+    -o-transition: height .2s; 
+    width: 574px;           /* [변경] 가로 드랍다운 메뉴의 넓이 */
+}
+.submenu li {
+    display: inline-block;  /* [변경] 가로로 펼쳐지도록 설정 */
+    height: 100px;
+    margin-left: -13px;
+    margin: 30px;
+    margin-left: -10px;
+}
+.topMenuLi:hover .submenu { /* 상위 메뉴에 마우스 모버한 경우 그 안의 하위 메뉴 스타일 설정 */
+    height: auto;
+    width: 100000px;           /* [변경] 높이를 32px로 설정 */
+}
+.submenuLink:hover {        /* 하위 메뉴의 a 태그의 마우스 오버 스타일 설정 */
+    color: black;                 
+    background-color: transparent;
+}
+.rightEnd
+{
+    display: flex;
+    margin-left: 10px;
+}
+
+.imoticon
+{
+    font-size: 30px;
+    font-family: quicksand;
+    color: #fff;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.imoticon a
+{
+    margin-left: 10px;
+    font-family: quicksand;
+    color: black;
+    text-decoration: none;
+}
+.middle
+{
+    font-family: quicksand;
+    font-size: 30px;
+    margin: 58px;
+}
+.middle a
+{
+    text-decoration: none;
+    font-family: quicksand;
+    font-size: 30px;
+    color: black;
+}

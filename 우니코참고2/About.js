@@ -1,0 +1,1 @@
+document.getElementById('myDropdown').style.color = "white";
